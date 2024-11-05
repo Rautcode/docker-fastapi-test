@@ -31,7 +31,7 @@ The response will appear below, showing user information from the `users.json` f
 Make sure you have the following installed:
 
 - **Docker**: [Install Docker](https://docs.docker.com/get-docker/)
-- **Docker Compose** (optional, if using docker-compose)
+- **Docker Compose**
 
 ## Getting Started
 
