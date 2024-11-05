@@ -1,33 +1,45 @@
-Dockerized FastAPI Application (DevOps Machine Test)
-This project features a FastAPI application designed for managing user data, allowing for the creation and retrieval of user profiles stored in a JSON file. The application is packaged in a Docker container to facilitate straightforward deployment.
+# Dockerized FastAPI Application (DevOps Machine Test)
 
-Key Features
-Add new user profiles with fields for first name, last name, and age.
-Retrieve all stored user profiles from a JSON file.
-User data is saved in a file named users.json located within a data directory.
-Interactive API Documentation
-FastAPI provides automatic interactive API documentation, making it easy to test and explore the available endpoints.
+This project contains a FastAPI application that allows you to manage user data, including creating and retrieving user profiles. User data is stored in a JSON file, and the application is containerized using Docker to enable easy deployment.
 
-Accessing the Documentation
-Open your preferred web browser.
-Navigate to http://localhost:8000/docs.
-Using the API
-To retrieve the list of users:
+## Key Features
 
-Locate the GET /users endpoint in the documentation.
-Click the "Try it out" button.
-Press "Execute" to see the results.
-The response, showing the user information pulled from the users.json file, will be displayed below the request details.
+- **Add User Profiles**: Create user profiles with fields for first name, last name, and age.
+- **Retrieve User Profiles**: Retrieve all stored user profiles from a JSON file.
+- **Persistent Storage**: User data is saved in a `users.json` file located in a `data` directory within the application.
 
-Prerequisites
-Before running the application, ensure you have the following installed:
+## Interactive API Documentation
 
-Docker
-Docker Compose 
+FastAPI generates interactive API documentation, allowing easy testing of available endpoints.
 
+### Accessing the Documentation
 
-Getting Started
-Clone the Repository
-To get started, clone this repository to your local machine:
+1. Open your preferred web browser.
+2. Go to [http://localhost:8000/docs](http://localhost:8000/docs) to view the interactive API documentation.
+
+### Using the API
+
+- **To Retrieve the List of Users**:
+    1. Find the **GET /users** endpoint in the documentation.
+    2. Click the **"Try it out"** button.
+    3. Press the **"Execute"** button to send the request.
+
+The response will appear below, showing user information from the `users.json` file.
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- **Docker**: [Install Docker](https://docs.docker.com/get-docker/)
+- **Docker Compose** (optional, if using docker-compose)
+
+## Getting Started
+
+### 1. Clone the Repository
+
+To start, clone this repository to your local machine:
+
+```bash
 git clone https://github.com/Rautcode/docker-fastapi-test.git
 cd docker-fastapi-test
+aaaa
