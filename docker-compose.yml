@@ -6,4 +6,4 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./app/data:/app/app/data  # Persist data on host machine
+      - ./app/data:/app/app/data  

@@ -1,4 +1,3 @@
-# app/main.py
 from fastapi import FastAPI
 from app import services
 from app.schema import UserIn, BaseResponse, UserListOut
