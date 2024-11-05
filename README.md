@@ -21,7 +21,8 @@ This is a FastAPI application that allows users to create and read user data sto
 git clone https://github.com/Rautcode/docker-fastapi-test.git
 cd docker-fastapi-test
 
-### Interactive API Documentation
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Interactive API Documentation
 
 FastAPI automatically generates interactive API documentation that you can use to test the endpoints. 
 
