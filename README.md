@@ -24,9 +24,13 @@ Prerequisites
 Before running the application, ensure you have the following installed:
 
 Docker on your machine
-Docker Compose (optional, if using docker-compose)
+Docker Compose 
+
 Getting Started
 Clone the Repository
 To get started, clone this repository to your local machine:
+
+bash
+Copy code
 git clone https://github.com/Rautcode/docker-fastapi-test.git
 cd docker-fastapi-test
