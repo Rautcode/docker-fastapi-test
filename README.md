@@ -42,4 +42,19 @@ To start, clone this repository to your local machine:
 ```bash
 git clone https://github.com/Rautcode/docker-fastapi-test.git
 cd docker-fastapi-test
+```
+### 2. Build and Run the Application Using Docker
+To build the Docker image and start the application:
+```bash
+docker-compose up --build
+```
+### 3. Access the Application
+Once the application is running, access it at http://localhost:8000/docs to use the API and view documentation.
+
+To Retrieve the List of Users:
+In the API documentation, find the GET /users endpoint.
+Click the "Try it out" button.
+Press the "Execute" button to see the results.
+The response will display below the request details, showing user information from the users.json file.
+
 
