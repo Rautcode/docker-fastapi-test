@@ -29,8 +29,6 @@ Docker Compose
 Getting Started
 Clone the Repository
 To get started, clone this repository to your local machine:
+-git clone https://github.com/Rautcode/docker-fastapi-test.git
 
-bash
-Copy code
-git clone https://github.com/Rautcode/docker-fastapi-test.git
-cd docker-fastapi-test
+-cd docker-fastapi-test
